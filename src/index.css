@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import "tailwindcss";
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
+:root {
+    --brand-color: #033C5D;
+    --font-sans: 'Roboto', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+  }
+  
+  .text-brand {
+    color: var(--brand-color);
+  }
+  .hover\:text-brand:hover {
+    color: var(--brand-color);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fadeIn {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  .delay-200 { animation-delay: 0.2s; }
+  .delay-400 { animation-delay: 0.4s; }
+
+  @keyframes fadeInBg {
+    from { opacity: 0; transform: scale(1.05); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+  
+  .fade-in-bg {
+    opacity: 0;
+    animation: fadeInBg 1s ease-out forwards;
+  }
+  
+  
+  
