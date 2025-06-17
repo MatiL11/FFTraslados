@@ -151,10 +151,10 @@ export const translations = {
               auto_urbano: 'Auto Urbano',
               auto_ejecutivo: 'Auto Ejecutivo',
               nueva_kangoo: 'Nueva Kangoo',
-              van_electrica: 'Van Eléctrica',
+              //van_electrica: 'Van Eléctrica',
               mercedes_benz_vito: 'Mercedes Benz Vito',
-              master_sprinter: 'Renault Master/Sprinter',
-              sprinter_xl: 'Sprinter XL'
+              toyota_hiace: 'Toyota Hiace',
+              mercedes_sprinter: 'Mercedes Sprinter'
             },
             NOTES: {
               includes_tolls: 'Incluye peajes y espera',
@@ -320,10 +320,10 @@ export const translations = {
               auto_urbano: 'Urban Car',
               auto_ejecutivo: 'Executive Car',
               nueva_kangoo: 'Renault Kangoo',
-              van_electrica: 'Electric Van',
+              //van_electrica: 'Electric Van',
               mercedes_benz_vito: 'Mercedes Benz Vito',
-              master_sprinter: 'Renault Master/Sprinter',
-              sprinter_xl: 'Sprinter XL'
+              toyota_hiace: 'Toyota Hiace',
+              mercedes_sprinter: 'Mercedes Sprinter'
             },
             NOTES: {
               includes_tolls: 'Includes tolls and waiting time',
@@ -490,10 +490,10 @@ export const translations = {
               auto_urbano: 'Carro Urbano',
               auto_ejecutivo: 'Carro Executivo',
               nueva_kangoo: 'Renault Kangoo',
-              van_electrica: 'Van Elétrica',
+              //van_electrica: 'Van Elétrica',
               mercedes_benz_vito: 'Mercedes-Benz Vito',
-              master_sprinter: 'Renault Master/Sprinter',
-              sprinter_xl: 'Sprinter XL'
+              toyota_hiace: 'Toyota Hiace',
+              mercedes_sprinter: 'Mercedes Sprinter'
             },
             NOTES: {
               includes_tolls: 'Inclui peajes e tempo de espera',
