@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/img/FFTrasladosLogo2.jpeg';
+import logo from '../assets/img/FFTrasladosLogoNuevo1.jpeg';
 import { BurgerMenu } from './BurgerMenu';
 import { useLang } from '../context/LangContext';
 import { translations } from '../translations/translations';
@@ -28,7 +28,7 @@ export default function Header({ onNav, active }) {
       <nav className="container mx-auto flex items-center justify-between py-4 px-6 relative">
         {/* Logo / Brand */}
         <div className="cursor-pointer" onClick={() => handleNav('home')}>
-          <img src={logo} alt="Logo VF" className="h-16 w-auto" />
+          <img src={logo} alt="Logo VF" className="h-16 w-auto rounded-full" />
         </div>
 
         {/* Desktop Nav Links */}

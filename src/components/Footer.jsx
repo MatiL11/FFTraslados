@@ -1,6 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, MapPin, Phone, Mail } from 'lucide-react';
-import logo from '../assets/img/FFTrasladosLogoBlanco.png';
+import logo from '../assets/img/FFTrasladosLogoBlanco.jpeg';
 import { useLang } from '../context/LangContext';
 import { translations } from '../translations/translations';
 
